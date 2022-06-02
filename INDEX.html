@@ -1,0 +1,52 @@
+<!--première ligne indique le type de html utilisé-->
+<!--docs.emmet.io/cheat-sheet. explique ce que font les différentes fonctions-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!--charset="utf-8" liste de caractères que l'on va utiliser, utf8 est le meilleur set de caractères-->
+  <meta charset="utf-8">
+  <title>Karim's personal site</title>
+</head>
+
+<body>
+  <!--Rendre un texte italique on a le choix entre le tag <<em></em> et <i></i>, <em></em> ets une meilleur solution car il rend le texte italic et lui confère une emphase pour que le browser se rende compte aue le contenu est important-->
+  <!--idem <strong></strong> vs <b></b>-->
+  <h1>Karim</h1>
+  <p><em>Welcome</em> to my <strong>new website</strong></p>
+  <br>
+  <p>I hope you like it</p>
+  <hr size="12" noshade>
+  <h3>Education</h3>
+  <ul>
+    <li>Master Digital Communication</li>
+    <li>Master ingénieur</li>
+  </ul>
+  <h3>Interests</h3>
+  <ol>
+    <li>basket-ball</li>
+    <ul>
+      <li>EU</li>
+      <li>US</li>
+    </ul>
+    <li>Programming</li>
+    <li>Design</li>
+  </ol>
+
+<!--source peut être une url et alt correspond au text alt qui explique l'image-->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrVgJB1ukvJ6UuNPNGlyrHuPDtUgxlOMQVGw&usqp=CAU" alt="Karim Bangoura Photo Profile">
+<!-- la meilleure option est de créer un répertiore d'image et récupérer la photo depuis le répertoire-->
+<img src="C:\Users\walla\OneDrive\Documents\learning\web dev\SERIOUSLY\HTML PERSONAL SITE\Karim Bangoura.jpg" alt="Karim Bangoura Photo Profile">
+<p> Ici on veut ajouter un hyperlien <em><strong><a href="https://www.linkedin.com/in/karimbangoura/">My LinkedIn profile</a></strong></em></p>
+<!--a est notre fonction hyperlien composé de href = url et >< dans lequel on va mettre le nom du texte auquel est lié l'hyperlien on peut même ajouté une balise strong jusye avant-->
+<p>exemple de liste avec anchor tag</p>
+<ol>
+  <li><a href="https://www.linkedin.com/mynetwork/">Network</a></li>
+  <li><a href="https://www.linkedin.com/jobs/">jobs</a></li>
+</ol>
+<!-- créer un lien vers une autre page-->
+<hr size="8" noshade>
+<em><a href="C:\Users\walla\OneDrive\Documents\learning\web dev\SERIOUSLY\HTML PERSONAL SITE\liste avec anchor tag.html">Read more</a></em>
+</body>
+
+</html>

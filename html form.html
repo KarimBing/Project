@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<form class="" action="index.html" method="post">
+
+</form>
+<body>
+  <!--poru créer un formulaire tu tapes d'abord form et ensuise tu vas créer des label et input et bouton-->
+  <!--dans ce formulaire  action="=index.html" indique ce qui se passe une fois le formulaire rempli-->
+  <!--on vq remplacer index.html et mettre <a href="mailto:joe@example.com?subject=feedback">email me</a>-->
+  <!-- le enctype est utilisé pour définir le type de contenu attendu dans l'email pour éviter un corp d'email avec des caractères spéciaux-->
+  <form class="" action="mailto:bangoura.k@gmail.com" method="post" enctype="text/plain">
+    <!--quand tu tapes lable tu as  for="" qui apparait dasn les crochets, tu peux le supprimer-->
+    <label>Your Name</label>
+    <!-- dans le input tu as le premier champ qui dit quel type de contenu on attend et value est le champ qui doit être rempli-->
+    <!-- dans name on va juste indiquer quel info est entrée dans le champ-->
+    <input type="text" name="Your name" value=""><br>
+    <input type="color" name="Color chosen" value=""><br>
+    <label>Do you want to dance?</label>
+    <input type="checkbox" name="ticked box" value=""><br>
+    <input type="Submit" name=""><br>
+    <label>What si your password</label>
+    <input type="password" name="" value=""><br>
+    <input type="Submit" name=""><br>
+    <input type="datetime-local" name="" value=""><br>
+    <input type="file" name="" value=""><br>
+    <input type="Submit" name=""><br>
+    <input type="radio" name="" value=""><br>
+    <input type="range" name="" value=""><br>
+    <br>
+    <br>
+    <br>
+
+  </form>
+  <form class="" action="mailto:bangoura.k@gmail.com" method="post" enctype="text/plain">
+    <label>Your email</label>
+    <input type="email" name="your email" value=""><br>
+    <label>What's your name?</label>
+    <input type="text" name="your name" value=""><br>
+    <label">Your Message</label><br>
+    <textarea name="your message" rows="20" cols="80"></textarea><br>
+    <input type="Submit" name=""><br>
+  </form>
+</body>
+
+</html>
